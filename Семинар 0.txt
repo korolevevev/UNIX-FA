@@ -1,0 +1,56 @@
+    1  shutdown -r now
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  shutdown -r now
+    7  sudo apt update
+    8  sudo rm /etc/apt/preferences.d/nosnap.pref
+    9  sudo apt update
+   10  sudo apt install snapd snapd-xdg-open
+   11  sudo snap install pycharm-community --classic
+   12  sudo apt-get install python3-setuptools
+   13  sudo apt-get install python3-pip
+   14  sudo apt-get install python3-distutils
+   15  sudo apt-get install python3-tk
+   16  shutdown -r now
+   17  sudo apt install software-properties-common apt-transport-https wget
+   18  wget -q https://packagecloud.io/AtomEditor/atom/gpgkey -O- | sudo apt-key add -
+   19  sudo add-apt-repository "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main"
+   20  sudo apt update
+   21  sudo apt install atom
+   22  history > Korolev.txt
+   23  cat Korolev.txt 
+   24  cd
+   25  sudo apt-get install python3-venv
+   26  mkdir myenvir
+   27  sudo apt-get install python3-venv
+   28  mkdir myenvir
+   29  cd myenvir/
+   30  python3 -m venv myenv1
+   31  python3 -m venv myenv2
+   32  source myenv1/bin/activate
+   33  deactivate
+   34  source myenv2/bin/activate
+   35  deactivate
+   36  pip3 install ipython
+   37  pip3 install jupiter notebook
+   38  pip3 install jupyter notebook
+   39  git --version
+   40  git config --list --show-origin
+   41  git config --global user.name "Ilya Korolev"
+   42  git config --global user.email 191737@edu.fa.ru
+   43  cd
+   44  git config --list --show-origin
+   45  mkdir mygit
+   46  cd mygit
+   47  git init
+   48  git status
+   49  touch test.txt
+   50  git status
+   51  git add test.txt
+   52  git status
+   53  git commit -m "this is Ilya Korolev's 1st commit!"
+   54  git status
+   55  history > history.txt
+   56  history > korolev.txt
